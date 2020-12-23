@@ -10,8 +10,8 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
  * @author migue
  *
  */
-public class DisplayNameBeanPostProcessor implements BeanPostProcessor {
-
+public class DisplayNameBeanPostProcessor implements BeanPostProcessor
+{
 	public Object postProcessAfterInitialization(Object arg0, String arg1)
 			throws BeansException {
 			System.out.println(">>Here in postProcessAfterInit bean: " + arg1 + "");
